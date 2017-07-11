@@ -6,7 +6,7 @@ myFirstGadget <- function(){
                 gadgetTitleBar("My First Gadget")
         )
         server <- function(input, output, session){
-                #Done buttong closes app
+                #Done button closes app
                 observeEvent(input$done,{
                         stopApp()
                 })
